@@ -58,7 +58,7 @@ OR from the browser:
 ```
 http://localhost:8011/swagger-ui/#/corda-admin-rest-controller/bulkCreateTokensUsingPUT
 ```
-and supply the 2524s and the target party to create the tokens on.
+and supply the ids and the target party to create the tokens on.
 
 
 After this step, you have created 6 tokens representing the physical automobile part with unique serial numbers(which will be unique in the manufacturing).
