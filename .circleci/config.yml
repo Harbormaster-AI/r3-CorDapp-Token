@@ -97,8 +97,8 @@ jobs:
           name: creating docker image..considering using env vars DOCKER_USER and DOCKER_PASS
           command: |
             docker login --username tylertravismya --password 69cutlass 
-            docker build -t theharbormaster/automotive-market-place:latest -f Dockerfile .
-            docker push theharbormaster/automotive-market-place:latest
+            docker build -t theharbormaster/automotive-market-place2:latest -f Dockerfile .
+            docker push theharbormaster/automotive-market-place2:latest
 
 # a workflow to build out the environment
 workflows:
